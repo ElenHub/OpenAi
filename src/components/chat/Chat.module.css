@@ -1,0 +1,155 @@
+.container {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.12);
+  max-width: 50%;
+  backdrop-filter: blur(100px);
+  background: rgba(16, 16, 58, 0.2);
+}
+
+.title {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.textarea {
+  background-color: var(--midnight-blue);
+  color: var(--text-color);
+  border-radius: 20px;
+  margin-bottom: 20px;
+  resize: none;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  max-height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 14px 50px;
+  overflow-y: hidden;
+  border: none;
+}
+
+.button {
+  position: absolute;
+  right: 10px;
+  top: 34%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 5px;
+  display: flex;
+  border: none;
+}
+
+.buttonEnabled {
+  background-color: var(--button-color);
+}
+
+.buttonDisabled {
+  background-color: var(--light-gray-color);
+  color: var(--dark-gray-color);
+  cursor: not-allowed;
+}
+
+.sendIconWrapper {
+  position: absolute;
+  right: 10px;
+  top: 34%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 5px;
+  display: flex;
+  border: none;
+}
+
+.sendIconWrapper:hover {
+  background-color: var(--hover-color);
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+.history {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 10px;
+  margin-top: 20px;
+  scrollbar-width: none;
+  margin-bottom: 20px;
+}
+
+.historyItemUser {
+  background-color: var(--midnight-blue);
+  padding: 10px;
+  border-radius: 18px;
+  margin-left: auto;
+  max-width: 60%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.historyItemAI {
+  background-color: var(--midnight-blue);
+  padding: 10px;
+  border-radius: 18px;
+  margin-right: auto;
+  max-width: 60%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  margin-bottom: 20px;
+}
+
+.spinner {
+  border: 8px solid rgba(255, 255, 255, 0.3);
+  border-top: 8px solid #007bff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.inputContainer {
+  position: relative;
+  width: 100%;
+}
+
+.micInside {
+  position: absolute;
+  left: 10px;
+  top: 33%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  display: flex;
+  padding: 2px;
+}

@@ -1,0 +1,24 @@
+:root {
+  --background-gradient: linear-gradient(90deg, hsl(243, 100%, 7%) 0%, hsl(240, 84%, 22%) 35%, hsl(208, 97%, 38%) 100%);
+  --midnight-blue: rgb(13, 13, 45);
+  --text-color:hsl(0, 0%, 100%);
+  --blue-color:hsla(240, 100%, 11.2%, 0.73);
+  --button-color:hsla(246, 86%, 30%, 0.642);
+  --hover-color:hsl(246, 81%, 23%);
+  --dark-gray-color: hsla(0, 0%, 42%, 0.746);
+  --light-gray-color: hsla(0, 0%, 83%, 0.738);
+} 
+
+body {
+  margin: 0;
+  height: 100vh; 
+  background: var(--background-gradient);
+  font-family: 'Roboto', sans-serif; 
+  color: var(--text-color);
+}
+
+html, body {
+  height: 100%; 
+  margin: 0;   
+}
+
