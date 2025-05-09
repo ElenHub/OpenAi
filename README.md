@@ -17,16 +17,16 @@ It allows you to enter text manually or via voice input, receive a response and 
 - **CSS:** CSS Modules
 - **Backend:** Next.js API routes
 
-### How to start the project
+## How to start the project
 
-## Install dependencies
+### Install dependencies
 
 - npm install
 
-## Setup environment variables
+### Setup environment variables
 
 - OPENAI_API_TOKEN=your_openai_api_key
 
-## Run the development server
+### Run the development server
 
 - npm run dev
