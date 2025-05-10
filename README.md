@@ -1,5 +1,9 @@
 ## ChatGPT Voice & Text Web Application
 
+## Live Demo
+
+You can view the deployed application here: https://openaigpt.netlify.app/
+
 ## Description
 
 This is a minimalistic web application for interacting with the ChatGPT API.  
